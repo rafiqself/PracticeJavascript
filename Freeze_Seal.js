@@ -1,3 +1,5 @@
+// Freeze the data
+
 const arr = [1,2,3,4];
 Object.freeze(arr);
 // arr.push(5)
