@@ -38,8 +38,11 @@ function doSomething() {
 }
 
 
-let arr = [12, 13, 8, 9, 10]
-for (var key in arr){
-    
-}
 
+let arr = [12, 13, 8, 9, 10]
+let arr1 = arr.sort(
+    function(a,b){
+        return a - b;
+    }
+)
+console.log(arr1[arr1.length - 1])
