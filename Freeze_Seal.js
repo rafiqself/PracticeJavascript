@@ -10,7 +10,6 @@ let user = {
 Object.seal(user);
 Object.isSealed(user)
 user.lastName = "Rafiq"
-
 user.age = 30;
 // console.log(user.firstName)
 console.log(user)
